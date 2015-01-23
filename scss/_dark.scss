@@ -1,0 +1,44 @@
+$code-background-color: #2e2e2e;
+
+@import "./base";
+
+.hljs {
+  display: block;
+  overflow-x: auto;
+  background: $code-background-color;
+  color: white;
+  -webkit-text-size-adjust: none;
+}
+
+.hljs-comment {
+  color: white;
+}
+
+// Light orange
+.hljs-keyword,
+.hljs-function {
+  color: #E28964;
+}
+
+// blue
+.hljs-tag {
+  color: #89bdff;
+}
+
+.hljs-attribute,
+.hljs-built_in,
+.hljs-title {
+  color: #bdb76b;
+}
+
+// green
+.hljs-value,
+.hljs-string,
+.hljs-number,
+.hljs-command,
+.hljs-rules .hljs-value,
+.hljs-regexp,
+.hljs-hexcolor,
+.hljs-link_url {
+  color: #65B042;
+}

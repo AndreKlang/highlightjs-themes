@@ -1,0 +1,14 @@
+pre {
+  padding: 1em;
+  background: $code-background-color;
+  color: white;
+  border: 1px solid;
+  border-radius: 5px;
+  line-height: 1.5;
+  word-wrap: normal;
+}
+
+code {
+  border: none;
+  border-style: none;
+}
