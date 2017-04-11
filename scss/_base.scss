@@ -1,4 +1,4 @@
-pre {
+pre.hljs {
   padding: 1em;
   background: $code-background-color;
   color: white;
@@ -7,9 +7,9 @@ pre {
   line-height: 1.5;
   word-wrap: normal;
   margin-bottom: 1em;
-}
 
-code {
-  border: none;
-  border-style: none;
+  code {
+    border: none;
+    border-style: none;
+  }
 }

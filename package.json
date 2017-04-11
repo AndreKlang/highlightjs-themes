@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/akiran/highlightjs-themes/issues"
   },
-  "homepage": "https://github.com/akiran/highlightjs-themes"
+  "homepage": "https://github.com/akiran/highlightjs-themes",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0"
+  }
 }
